@@ -11,7 +11,7 @@ class Goose:
         print(self.voice)
 
     def egg(self):
-        return f'Я собрала яйца {self.name} {type(self)}'
+        return f'Яйца собраны у {self.name} {type(self)}'
 
 
 grey_goose = Goose('Серый', 5)
